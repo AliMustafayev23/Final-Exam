@@ -1,0 +1,21 @@
+.detail{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background-image: url("https://preview.colorlib.com/theme/educature/img/header-bg.png");
+  color: white;
+  .delete{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius:10px;
+    cursor:pointer;
+    border-style: none;
+    background-color: red;
+    color: white;
+    &:hover{
+      background-color:rgb(217, 95, 95);
+    }}
+}

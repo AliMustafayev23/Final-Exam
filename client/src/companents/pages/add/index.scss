@@ -1,0 +1,38 @@
+.add{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background-image: url("https://preview.colorlib.com/theme/educature/img/header-bg.png");
+  color: white;
+  form{
+    display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 30%;
+
+  input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border-style: none;
+  }
+  button{
+    border-radius: 10px;
+      margin-top: 20px;
+      padding: 10px;
+      cursor:pointer;
+      border-style: none;
+      background-color: #0a4144;
+      color: white;
+      &:hover{
+        background-color:#047177;
+      }
+  }
+  }
+}

@@ -1,0 +1,26 @@
+.nopage{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background-image: url("https://preview.colorlib.com/theme/educature/img/header-bg.png");
+  color: white;
+  .notfound{
+font-size: 100px;
+  }
+  .backhome{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius:10px;
+    font-size: 20px;
+    cursor:pointer;
+    border-style: none;
+    background-color: rgb(18, 208, 18);
+    color: white;
+    &:hover{
+      background-color:lightgreen;
+    }
+  }
+}

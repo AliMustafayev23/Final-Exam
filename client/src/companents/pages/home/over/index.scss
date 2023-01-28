@@ -1,0 +1,29 @@
+.over{
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  column-gap:100px;
+  .overleft{
+    display: flex;
+  flex-direction: column;
+  .explore{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    width: 110px;
+        cursor:pointer;
+        border-style: none;
+        background: linear-gradient(90deg, #38C7C8 25%, #38C1C7 50%, #3381BD 100%);
+        color: white;
+        &:hover{
+          background-color:#047177;
+        }
+  }
+  }
+}
+@media only screen and (max-width:992px){
+  .over{
+    flex-direction: column;
+  }
+}

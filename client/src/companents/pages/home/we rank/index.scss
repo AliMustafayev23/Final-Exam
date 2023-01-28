@@ -1,0 +1,36 @@
+#werank{
+  background-image: url("https://preview.colorlib.com/theme/educature/img/header-bg.png");
+ background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  .werank{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    .searchside{
+      background-color: white;
+      padding: 10px;
+      display: flex;
+      column-gap: 20px;
+      input{
+        border-style:none;
+        outline:none;
+      }
+      .search{
+        padding: 10px;
+        cursor:pointer;
+        border-style: none;
+        background: linear-gradient(90deg, #38C7C8 25%, #38C1C7 50%, #3381BD 100%);
+        color: white;
+        &:hover{
+          background-color:#047177;
+        }
+      }
+    }
+  }
+}

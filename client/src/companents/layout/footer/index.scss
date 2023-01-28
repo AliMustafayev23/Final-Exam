@@ -1,0 +1,31 @@
+#footer{
+  background-color: #283367;
+  color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 200px;
+    .footerrigth{
+      display: flex;
+      column-gap: 20px;
+      i{
+        background-color: #425097;
+        padding: 10px;
+        &:hover{
+          background-color:#37B8C6;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:992px){
+  .footer{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
